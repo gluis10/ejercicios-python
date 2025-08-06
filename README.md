@@ -1,2 +1,2 @@
 # ejercicios-python
-Ejercicios básico en python para mejorar lógica de programación
+Ejercicios básicos en python para mejorar la lógica de programación
