@@ -1,8 +1,8 @@
 #Pide dos números e imprime cuál es el mayor. Si son iguales, indícalo.
 
 print("BIENVENIDO")
-num1 = int(input("Ingrese el primer numero: "))
-num2= int(input("Ingrese el segundo numero: "))
+num1 = float(input("Ingrese el primer numero: "))
+num2= float(input("Ingrese el segundo numero: "))
 
 if (num1>num2):
     print("El número mayor es: ", num1)
