@@ -6,8 +6,8 @@ password = "Kmag1005!"
 entrada = input("Ingrese la contraseña correcta: ")
 
 if (entrada == password):
-    print("La contraseña ingresada es correcta: ")
+    print("La contraseña ingresada es correcta ")
 else: 
-    print("La contraseña ingresada es incorrecta: ")
+    print("La contraseña ingresada es incorrecta ")
 
 #newpass = input("Ingrésalo nuevamente: ")
