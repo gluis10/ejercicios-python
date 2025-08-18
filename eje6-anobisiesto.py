@@ -4,6 +4,7 @@ Pide al usuario un año y determina si es bisiesto. Un año es bisiesto si:
 - Si es divisible por 100, no es bisiesto
 - Si es divisible por 400, es bisiesto. 
 """
+#(divisible entre 4 y no entre 100, excepto si es divisible entre 400).
 
 print("BIENVENIDO")
 entrada = int(input("Ingrese un año: "))
