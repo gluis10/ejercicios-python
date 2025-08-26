@@ -6,14 +6,14 @@ totalcompra = float(input("Ingrese el total de la compra: "))
 #NIVEL SENIOR
 if (totalcompra > 500):
     totalfinal = totalcompra - (totalcompra * 0.20)
-    print(f"El tota de la compra sin descuento es {totalcompra}")
-    print("El total de la compra con descuento es: ", totalfinal)
+    print(f"El tota de la compra sin descuento es: Q{totalcompra}")
+    print("El total de la compra con descuento es: Q", totalfinal)
 elif (totalcompra > 100):
     totalfinal = totalcompra - (totalcompra * 0.1)
-    print(f"El tota de la compra sin descuento es {totalcompra}")
-    print("El total de la compra es: ", totalfinal)
+    print(f"El tota de la compra sin descuento es: Q{totalcompra}")
+    print("El total de la compra con descuento es: Q", totalfinal)
 else:
-    print("El total de la compra es: ", totalcompra)
+    print(f"El total de la compra es: Q{totalcompra}")
  
 #NIVEL JUNIOR
 # if (totalcompra > 500):
