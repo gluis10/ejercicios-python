@@ -16,4 +16,3 @@ elif (edad <= 64):
 else: 
     print("- Entra en el rango de adulto mayor!")
 
-

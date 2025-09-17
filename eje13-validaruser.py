@@ -9,5 +9,3 @@ if (name == "admin" and password == "1234"):
 else:
     print("Acceso denegado!")
  
-
-

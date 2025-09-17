@@ -6,9 +6,11 @@ nota2 = float(input("Ingrese su nota2 (0/100): "))
 nota3 = float(input("Ingrese su nota3 (0/100): "))
 asistencia = int(input("Ingrese su porcentaje de asistencia (0/100): "))
 
-if not (0 <= nota1 <= 100 and 0 <= nota2 <= 100 and 0 <= nota3 <= 100 and 0 <= asistencia <= 100):
+if not(0 <= nota1 <= 100 and 0 <= nota2 <= 100 and 0 <= nota3 <= 100 and 0 <= asistencia <= 100):
     print("- Una de las notas ingresadas o el porcentaje está fuera del rango!")
 elif (nota1 >= 60 and nota2 >= 60 and nota3 >= 60 and asistencia >= 75): 
     print("- Aprobado, felicidades!")
 else:
     print("- Reprobado, estudie más huebón!")
+
+
