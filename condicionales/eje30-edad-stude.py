@@ -18,3 +18,7 @@ elif (edad < 18 and invitacion == "si"):
     print("- Aprobado")
 else:
     print("- Reprobado, estudie más huebón!")
+
+
+
+
