@@ -14,11 +14,12 @@ lista1.append(6)
 lista1.append("Genry")
 print(lista1)
 
-print("----------------agregar un elemento---------------")
+print("----------------agregar un elemento es una posición específica---------------")
 lista2 = [1,2,4,5]
 #Agregar un elemento un una posición específica con la función .insert()
 #Se le pasa 2 parámetros, el índice donde quiero que vaya el valor y luego el elemento
-lista2.insert(2,3)
+lista2.insert(2,3) 
+#Quiero que en la posición 2 vaya el elemento 3
 print(lista2)
 
 print("----------------agregar varios elementos---------------")
@@ -63,8 +64,7 @@ print(lista8)
 #Eliminar un elemento pasándole el índice del elemento
 lista8.pop(2)
 print(lista8)
-
-#Eliminar un elemento pasando el nombre de elemento a eliminar
+#Eliminar un elemento pasando el nombre de elemento a eliminar (remove)
 lista8.remove(5)
 print(lista8)
 lista8.remove(2)
@@ -72,7 +72,6 @@ print(lista8)
 #Eliminar toda la lista, dejarla vacía
 lista8.clear()
 print(lista8)
-
 
 print("-----------Poner modo reverso-------------------")
 #poner una lista en reverso
@@ -85,9 +84,9 @@ print("-----------duplicar elementos de la lista----------")
 lista9 = [1,2,3,4,5, "Genry"]*2
 print(lista9)
 
-print("-----------Ordenar elementos----------------------")
+print("-----------Ordenar elementos (ascendente y descendente) ----------------------")
 #Ordenar los elementos de la lista con el sort
-lista10 = [5,4,-5,-1,3,2]
+lista10 = [5,4,-5,-1,3,2, 10]
 lista10.sort()
 print(lista10)
 #Ordenar los elementos de mayor a menor (descendente)
