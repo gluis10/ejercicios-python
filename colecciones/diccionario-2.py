@@ -30,7 +30,7 @@ print(equipo)
 
 print("\n----Mostrar claves y valores usando el el método items()----")
 print(equipo.items())
-#Esto es muy utilizando para recorrer diccionarios con el bucle for
+#Esto es muy utilizado para recorrer diccionarios con el bucle for
 #Si nos damos agrega el diccionario dentro de una lista pero también dentro de tuplas
 
 print("\n----Mostrar cuántos elementos (jugadores) hay en mi equipo----")

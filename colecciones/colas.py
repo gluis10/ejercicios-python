@@ -18,5 +18,9 @@ print(f"Atendiendo a {n}")
 #Le indicamos que vamos a sacar el primer elemento poniendo el índice del elemento
 print(cola)
 
-
 print("\n")
+
+
+
+
+
