@@ -1,4 +1,4 @@
-#Verificación de invitación → Pide si tienes invitación (sí/no). Si la respuesta no es "sí", muestra que no puede ingresar, en caso contrario permite el acceso.
+#Verificación de invitación → Pide si tiene invitación (sí/no). Si la respuesta no es "sí", muestra que no puede ingresar, en caso contrario permite el acceso.
 
 #USANDO EL IF NOT
 
@@ -11,3 +11,5 @@ elif not (invitacion == "si"):
     print("- No puede ingresar sin invitación!")
 else:
     print("- Puede ingresar!")
+
+

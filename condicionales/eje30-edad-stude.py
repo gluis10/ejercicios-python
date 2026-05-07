@@ -1,4 +1,4 @@
-#Pide la edad de un estudiante, tres notas (0/100) y el porcentaje de asistencia (0/100). El estudiante aprueba si todas sus notas son mayores o iguales a 60 y la asistencia es al menos del 75%. Si tiene todas las notas mayores o iguales a 85 y la asistencia es mayor o igual a 90%, aprueba con excelencia. Sin embargo, si el estudiante es menor de 18 años y tiene invitación especial (responder “si”), podrá aprobar incluso si no cumple con los requisitos normales.
+#Pide la edad de un estudiante, y tres notas (0/100) y el porcentaje de asistencia (0/100). Si tiene todas las notas mayores o iguales a 85 y la asistencia es mayor o igual a 90%, imprime "Aprobado con Excelencia, felicidades!". Y si todas sus notas son mayores o iguales a 60 y la asistencia es al menos del 75% imprime "Aprobado, felicidades!".  Sin embargo, si el estudiante es menor de 18 años y tiene invitación especial (responder “si”), podrá aprobar incluso si no cumple con los requisitos normales.
 
 print("BIENVENIDO")
 edad = int(input("Ingrese su edad: "))

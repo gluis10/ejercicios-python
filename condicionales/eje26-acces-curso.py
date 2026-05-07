@@ -11,3 +11,5 @@ if not (18 <= edad <= 25 and estudiante == "si"):
 else:
     print("- Puede acceder!")
 
+
+#if not = (Si no es)

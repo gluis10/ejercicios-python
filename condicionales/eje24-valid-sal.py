@@ -9,3 +9,4 @@ if not (2000 <= salario <= 10000):
     print("- El salario está fuera del rango (2000/10000)!")
 else:
     print("- Salario válido")
+

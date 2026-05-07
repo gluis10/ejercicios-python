@@ -19,11 +19,11 @@ else:
 # if (totalcompra > 500):
 #     descuento = totalcompra * 0.20;   
 #     totalfinal = totalcompra - descuento;
-#     print("El total de la compra es: ", totalfinal)
+#     print("El total de la compra con descuento es: ", totalfinal)
 # elif (totalcompra > 100):
 #     descuento = totalcompra * 0.1;
 #     totalfinal = totalcompra - descuento;
-#     print("El total de la compra es: ", totalfinal)
+#     print("El total de la compra con descuento es: ", totalfinal)
 # else:
 #     print("El total de la compra es: ", totalcompra)
 

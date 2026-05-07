@@ -1,0 +1,6 @@
+"""
+Windows/Linux: Ctrl + K seguido de Ctrl + C para comentar, y Ctrl + K seguido de Ctrl + U para descomentar.
+"""
+
+
+"\t" :Salto de líneas

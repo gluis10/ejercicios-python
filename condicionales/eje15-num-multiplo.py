@@ -6,13 +6,30 @@ numero = float(input("Ingrese un número: "))
 
 if (numero % 3 == 0 and numero % 5 == 0):
     print("- El número es múltiplo de 3 y 5.")
-elif (numero % 3 == 0) or (numero % 5 == 0):
-    print("- El número solo es múltiplo de uno de ellos.")
+elif (numero % 3 == 0) and (numero % 5 != 0):
+    print("- El número solo es múltiplo de 3")
+elif (numero % 3 != 0) and (numero % 5 == 0):
+    print("- El número solo es múltiplo de 5")
 else:
     print ("- El número no es múltiplo de ninguno de ellos.")
     
 """
-- 15 y 30 es múltiplo de uno de ellos.
+- 15 y 30 es múltiplo de 3 y 5.
 - 12, 18 o 20 es múltiplo de uno de ellos.
 - 8, 11 o 19 o es múltiplo de ninguno de ellos.
+"""
+
+
+"""
+Más optimizado: 
+numero = int(input("Ingrese un número: ")) # Usamos int para múltiplos
+
+if (numero % 3 == 0 and numero % 5 == 0):
+    print("- El número es múltiplo de 3 y 5.")
+elif (numero % 3 == 0):
+    print("- El número solo es múltiplo de 3")
+elif (numero % 5 == 0):
+    print("- El número solo es múltiplo de 5")
+else:
+    print("- El número no es múltiplo de ninguno de ellos.")
 """

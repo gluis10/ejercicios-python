@@ -21,5 +21,5 @@ RECOMENDACIÓN PARA SIMPLIFICAR EL CÓDIGO
 
 No es tan necesario poner "edad >= 12" ni "edad >= 18", porque si el programa llega a ese elif, significa que ya no entró en los casos anteriores (edad < 12). Eso implícitamente asegura que la edad ya es mayor o igual a 12.
 
-Porque el flujo del if/elif/else ya se encarga de que el número esté dentro del rango correcto ✅.
+Porque el flujo del if/elif/else ya se encarga de que el número esté dentro del rango correcto.
 """

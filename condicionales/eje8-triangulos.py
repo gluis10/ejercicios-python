@@ -21,3 +21,8 @@ else:
 
 #print(f"El numero mayor es: {num2}")           
 
+
+"""
+- or : Si se cumple al menos una de las condiciones, el resultado es verdadero.
+- and : Para que el resultado sea verdadero, ambas condiciones deben cumplirse. 
+"""

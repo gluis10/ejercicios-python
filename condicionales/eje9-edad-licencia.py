@@ -6,9 +6,9 @@ edad = int(input("-Ingrese la edad: "))
 licencia = str(input("-Tiene licencia (si/no): "))
 
 if (edad >= 18 and licencia == "si"):
-    print("Puede conducir")
+    print("Puede conducir!!")
 else:
-    print("No puede conducir")
+    print("No puede conducir!!")
 
 "NIVEL JUNIOR"
 # if (licencia == "no" and edad >= 18) or (licencia == "si" and edad < 18):
