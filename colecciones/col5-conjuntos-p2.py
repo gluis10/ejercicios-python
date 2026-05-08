@@ -7,7 +7,7 @@ c = {3,1,2}
 
 print("\t")
 print("--------- Ver la igualdad de dos conjuntos -----------")
-#Verificar si el conjunto "a" es igual al conjunto "b"
+#Verificar si el conjunto "a" es igual al conjunto "b" (False)
 print(a == b)
 #Están en orden diferente pero los elementos son iguales (true)
 print(a == c)
@@ -23,9 +23,9 @@ b = {3,1,2}
 c = {1, 3, 4, 5, 7}
 
 print("\t")
-print("--------- unión de dos conjuntos -----------")
+print("--------- Unión de dos conjuntos -----------")
 #Se utiliza el símbolo "|" para unir dos conjuntos
-principal = a | b 
+principal = a | b #Imprime {1,2,3} porque no se repite elementos
 print(principal)
 #Eje2
 principal = a | c 
@@ -40,27 +40,28 @@ b = {3,1,2}
 c = {1, 3, 4, 5, 7}
 
 interseccion = a & c
-print(interseccion)
+print(interseccion) #Se imprime {1,2,5} que son los que están en ambos
 
 print("\t")
 print("--------- DIFERENCIA CONJUNTOS -----------")
-#La diferencia son los elementos de a y que no están en c
+#La diferencia son los elementos de "a" y que no están en "c"
 a = {1,2,3, 5}
 b = {3,1,2}
 c = {1, 3, 4, 5, 7}
 
 diferencia = a - c
 print(diferencia)
+#Se imprime 2 porque es el único elemento que está en "a" y no está en "c".
 
 print("\t")
 print("--------- DIFERENCIA CIMÉTRICA -----------")
-#La diferencia simétrica son los elementos que están en a y en b pero que no están en ambos
+#La diferencia simétrica son los elementos que están en "a" y en "b" pero que no están en ambos.
 a = {1,2,3, 5}
 b = {3,1,2}
 c = {1, 3, 4, 5, 7}
 
 diferenciasim = a ^ c
-print(diferenciasim)
+#Se imprime 2,4,7 porque son los elementos que no se repiten en ambos.
 
 print("\t")
 print("--------- SUBCONJUNTOS -----------")
@@ -69,7 +70,8 @@ a = {1,2,3,5,4}
 b = {3,1,2}
 c = {1, 3, 4, 5, 7}
 
-print(b.issubset(a))
+print(b.issubset(a)) 
+#Verdadero porque 3,1,2 también están "A".
 #Eje2: A no es un subconjunto de C
 print(a.issubset(c))
 
@@ -89,7 +91,7 @@ a = {1,2,3,5,4}
 b = {2,6,8}
 c = {1, 3, 4, 5, 7}
 
-print(a.isdisjoint(b)) #Falses
+print(a.isdisjoint(b)) #Falso, 2 se repite en ambos.
 #Eje2
 print(c.isdisjoint(b)) #True
 
@@ -98,4 +100,5 @@ print("--------- CONJUNTOS INMUTABLES -----------")
 #Un conjunto inmutable no se puede modificar (add, edit, delete)
 a = frozenset({1,2,3,5,4})
 a.add(6)
-print(a) #Error
+print(a) #Esto da Error porque no se puede modificar los conjuntos inmutables.
+

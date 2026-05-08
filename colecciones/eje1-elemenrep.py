@@ -1,3 +1,5 @@
+#EJERCICIO 1 -COLECCIONES
+
 #Escriba un programa donde tenga una lista y que, a continuación, elimine elementos repetidos, por último mostrar lista.
 
 print("\n--------- BIENVENIDO ----------")
@@ -18,11 +20,12 @@ listanueva = list(conjunto)
 print(listanueva)
 
 
-print("\n--------- RESOLUCIÓN A NIVEL SENIOR ----------")
+print("\n--------- RESOLUCIÓN NIVEL SENIOR ----------")
 lista = ["CR7", "Vini", "Bellingam", "Mbappe", "Arda", "CR7", "Arda", "CR7", "Vini"]
 lista = list(set(lista))
 print(lista)
 
+print("\t")
 #Sobrescribir la lista y le digo que se trasforme en un "conjunto" ("set(lista)") para eliminar los elementos repetidos, luego a este "conjunto" lo trasformo nuevamente a una "lista" ( "list(set(lista))" ), de esa manera los transformo en lista ya con elementos únicos, eliminando los elementos repetidos.
 
 

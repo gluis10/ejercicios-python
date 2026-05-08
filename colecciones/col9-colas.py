@@ -16,8 +16,10 @@ print("\n-----Sacando elementos al principio de la cola----")
 n = cola.pop(0)
 print(f"Atendiendo a {n}")
 #Le indicamos que vamos a sacar el primer elemento poniendo el índice del elemento
-print(cola)
+n = cola.pop(0)
+print(f"Atendiendo a {n}")
 
+print(cola)
 print("\n")
 
 
