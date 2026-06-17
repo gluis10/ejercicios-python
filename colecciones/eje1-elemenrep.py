@@ -10,15 +10,14 @@ print(lista)
 #Recordemos que en los conjuntos no pueden haber elementos repetidos 
 #Entonces podemos convertir la "lista" a "conjunto"
 
-print("\n--------Convertir a conjunto eliminando repetidas---------")
+print("\n--------Convertir la lista a conjunto eliminando repetidas---------")
 conjunto = set(lista)
 print(conjunto)
 
-#Como ya eliminamos elementos repetidos, podemos convertirla nuevamente a una "lista"
+#Como ya eliminamos elementos repetidos, podemos convertirla nuevamente a una "lista" usando la función list
 print("\n--------Convertir el conjunto nuevamente a una lista---------")
 listanueva = list(conjunto)
 print(listanueva)
-
 
 print("\n--------- RESOLUCIÓN NIVEL SENIOR ----------")
 lista = ["CR7", "Vini", "Bellingam", "Mbappe", "Arda", "CR7", "Arda", "CR7", "Vini"]

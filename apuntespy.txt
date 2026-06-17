@@ -4,3 +4,6 @@ Windows/Linux: Ctrl + K seguido de Ctrl + C para comentar, y Ctrl + K seguido de
 
 
 "\t" :Salto de líneas
+	
+
+
