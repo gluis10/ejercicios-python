@@ -4,4 +4,5 @@ for x in fruits:
 
 
 #3.8.6
-
+#
+print(1234 // 10)

@@ -14,6 +14,7 @@ contador = 1;
 while contador <= 5:
     print(contador)
     contador = contador + 1;
+    #Mod Senior contador += 1;
 
 """
 En este ejemplo, el bucle imprime los números del 1 al 5 porque la variable contador aumenta en cada repetición hasta que deja de cumplir la condición "contador <= 5". Es importante modificar la variable de control dentro del bucle para evitar un ciclo infinito.
