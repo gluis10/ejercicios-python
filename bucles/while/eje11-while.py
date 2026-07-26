@@ -15,7 +15,7 @@ while numero_user != secret_num:
     intentos = intentos + 1;
     print("Numero incorrecta!")
     numero_user = int(input("- Vuelva a ingresarlo!: "))
-print("-Número ingresada correctamente!")
+print("¡Felicidades! Adivinaste el número secreto.")
 print("-Número de intentos realizados:", intentos)
 
 # Explicación de Lógica

@@ -5,9 +5,9 @@ print("\n--------- BIENVENIDO ----------")
 Contar cuántos números ingresa el usuario y calcular el promedio.
 Solicita números al usuario hasta que escriba 0. El programa debe contar cuántos números válidos ingresó y calcular el promedio de esos números.
 Usando while.
-"""
-tnumeros_ingresados = 0;
-sumat_acumulado = 0;
+"""         
+tnumeros_ingresados = 0; #Guarda la cuenta total de números ingresados
+sumat_acumulado = 0; #Guarda la suma total de los números ingresados
 numero = int(input("\n- Digite un número random: "))
 
 while numero != 0:
