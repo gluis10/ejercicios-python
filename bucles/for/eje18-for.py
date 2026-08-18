@@ -22,7 +22,6 @@ for contador in range(1, numero+1):
     
     espacios = " " * (numero - contador)
     secuencia = contador * 2-1
-
     print(espacios, end="")
 
     for contador1 in range(1, secuencia+1):
@@ -45,7 +44,6 @@ for contador in range(1, numero+1):
 
 - La variable secuencia calcula cuántos números tendrá cada fila:
   contador * 2 - 1
-
 - Esto genera cantidades impares:
   1, 3, 5, 7 y 9.
 
